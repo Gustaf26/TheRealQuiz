@@ -1,0 +1,212 @@
+/* Generic styling */
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-align: center;
+	color: salmon;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+button.btn.btn-secondary {
+	background-color: lightslategray;
+	border: none;
+}
+
+button.btn.btn-secondary:hover {
+	background-color: rgb(94, 107, 121);
+}
+
+/* Navbar styling */
+.navbar {
+	background-color: lightslategray;
+	color: aliceblue;
+	padding-bottom: 1.5rem;
+	padding-top: 3rem;
+}
+
+.nav-link {
+	color: aliceblue;
+}
+
+a.nav-link:hover {
+	color: #badbf8;
+}
+
+svg {
+	color: aliceblue;
+	width: 3em;
+	height: 3em;
+}
+
+span.navbar-toggler-icon {
+	color: aliceblue;
+}
+
+/* Footer styling */
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: aliceblue;
+	background-color: lightslategray;
+}
+
+.footer-copyright {
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+	text-align: center;
+}
+
+/* Mainpage styling */
+div.col-md-6.col-lg-4 {
+	padding: 0;
+}
+
+div.card-deck div.card {
+	margin-bottom: 1rem;
+}
+
+div.card-body {
+	border: 2px solid salmon;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+div.card-body p.quiz-icon {
+	font-size: 2rem;
+}
+
+/* Quiz render page styling */
+button.startbtn {
+	margin-top: 1.5rem;
+}
+
+div.quiz-questions-output {
+	margin-top: 2rem;
+	text-align: center;
+	border: 1px solid salmon;
+}
+
+div.question {
+	background-color: salmon;
+}
+
+div.question p {
+	padding: 0.75rem;
+	margin: 0;
+	color: white;
+	font-size: 1.5rem;
+}
+
+form.answerform {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-around;
+}
+
+form.answerform label {
+	border-bottom: 1px solid salmon;
+	margin: 0;
+	padding: 0.5rem;
+	color:#444;
+}
+
+form.answerform label input {
+	margin-right: 0.5rem;
+}
+
+form.answerform button.btn.btn-secondary {
+	border-radius: 0;
+	background-color: salmon;
+}
+
+form.answerform button.btn.btn-secondary:hover {
+	background-color: #faa79e;
+}
+
+.result {
+	text-align: center;
+	padding: 2rem 3rem;
+	margin: 2rem;
+	background-color: lightslategray;
+	color: white;
+	font-size: 1.5rem;
+}
+
+/* Quiz Creator styling */
+.quizcreator-container h1 {
+	margin-bottom: 1.5rem;
+}
+
+.quizcreator-form {
+	background-color: salmon;
+	color: white;
+	padding: 1.5rem 3rem;
+	margin-bottom: 2rem;
+}
+
+button a {
+	color: white;
+	border: none;
+}
+
+button a:hover {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.create-quiz-output {
+	padding: 1.5rem;
+	text-align: center;
+}
+
+.delete-question {
+	cursor: pointer;
+	font-size: 1rem;
+}
+
+.create-quiz-output h1 {
+	margin-bottom: 2rem;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.create-quiz-output h2 {
+	font-size: 1.5rem;
+}
+
+.created-question-output {
+	margin-bottom: 2rem;
+}
+
+span.correct {
+	font-style: italic;
+	font-weight: bold;
+	color: salmon;
+}
